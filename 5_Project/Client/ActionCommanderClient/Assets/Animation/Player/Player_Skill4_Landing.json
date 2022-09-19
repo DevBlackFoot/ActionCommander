@@ -1,0 +1,57 @@
+﻿{
+    "name": "Player_Skill4_Landing",
+    "bIsLooping": false,
+    "length": 0.03333333507180214,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "Effect_Stay",
+            "parameter": "25 10 Assets/Animation/Effect/Effect_Skill4_2.json"
+        },
+        {
+            "time": 0.0,
+            "functionName": "CameraShake",
+            "parameter": "0 4 0.3"
+        },
+        {
+            "time": 0.0,
+            "functionName": "Skill4_Attack1",
+            "parameter": "25 -35 100 70"
+        },
+        {
+            "time": 0.01666666753590107,
+            "functionName": "EndSkillAttack",
+            "parameter": ""
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Player/Player_Skill4.png::Player_Skill4_5"
+            },
+            {
+                "time": 0.01666666753590107,
+                "value": "Assets/SpriteSheet/Player/Player_Skill4.png::Player_Skill4_5"
+            }
+        ]
+    }
+}

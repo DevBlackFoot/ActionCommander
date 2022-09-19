@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Skill1_2.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Skill1_2_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 154,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill1_2_1",
+            "rect": {
+                "left": 154,
+                "top": 0,
+                "right": 308,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill1_2_2",
+            "rect": {
+                "left": 308,
+                "top": 0,
+                "right": 462,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill1_2_3",
+            "rect": {
+                "left": 462,
+                "top": 0,
+                "right": 616,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill1_2_4",
+            "rect": {
+                "left": 616,
+                "top": 0,
+                "right": 770,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill1_2_5",
+            "rect": {
+                "left": 770,
+                "top": 0,
+                "right": 924,
+                "bottom": 114
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

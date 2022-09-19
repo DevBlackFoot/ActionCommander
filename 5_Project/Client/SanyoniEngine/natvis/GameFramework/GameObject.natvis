@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="SanyoniEngine::GameObject">
+        <DisplayString Condition="this->m_bEnable == false &amp;&amp; this->m_Parent == nullptr">
+            {{ (disabled) {this->m_Property}, tag: {m_Tag}, components: {this->m_Components.size()}, parent: nullptr, childs: {this->m_Childs.size()} }}
+        </DisplayString>
+        <DisplayString Condition="this->m_bEnable == false">
+            {{ (disabled) {this->m_Property}, tag: {m_Tag}, components: {this->m_Components.size()}, parent: {this->m_Parent->GetName()}({this->m_Parent->GetUID()}), childs: {this->m_Childs.size()} }}
+        </DisplayString>
+        <DisplayString Condition="this->m_Parent == nullptr">
+            {{ {this->m_Property}, tag: {m_Tag}, components: {this->m_Components.size()}, parent: nullptr, childs: {this->m_Childs.size()} }}
+        </DisplayString>
+        <DisplayString>
+            {{ {this->m_Property}, tag: {m_Tag}, components: {this->m_Components.size()}, parent: {this->m_Parent->GetName()}({this->m_Parent->GetUID()}), childs: {this->m_Childs.size()} }}
+        </DisplayString>
+        <Expand>
+            <Item Name="components">this->m_Components</Item>
+            <Item Name="parent">this->m_Parent</Item>
+            <Item Name="childs">this->m_Childs</Item>
+        </Expand>
+    </Type>
+</AutoVisualizer>

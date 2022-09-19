@@ -1,0 +1,96 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinBoss_Walk_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 142,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_1",
+            "rect": {
+                "left": 142,
+                "top": 0,
+                "right": 284,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_2",
+            "rect": {
+                "left": 284,
+                "top": 0,
+                "right": 426,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_3",
+            "rect": {
+                "left": 426,
+                "top": 0,
+                "right": 568,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_4",
+            "rect": {
+                "left": 568,
+                "top": 0,
+                "right": 710,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_5",
+            "rect": {
+                "left": 710,
+                "top": 0,
+                "right": 852,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        },
+        {
+            "name": "GoblinBoss_Walk_6",
+            "rect": {
+                "left": 852,
+                "top": 0,
+                "right": 994,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.40140846371650698,
+                "y": 0.04794520512223244
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinArcher_Walk_Sheet_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 76,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Walk_Sheet_1",
+            "rect": {
+                "left": 76,
+                "top": 0,
+                "right": 152,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Walk_Sheet_2",
+            "rect": {
+                "left": 152,
+                "top": 0,
+                "right": 228,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Walk_Sheet_3",
+            "rect": {
+                "left": 228,
+                "top": 0,
+                "right": 304,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Walk_Sheet_4",
+            "rect": {
+                "left": 304,
+                "top": 0,
+                "right": 380,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Walk_Sheet_5",
+            "rect": {
+                "left": 380,
+                "top": 0,
+                "right": 456,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.42105263471603396,
+                "y": 0.0357142873108387
+            }
+        }
+    ]
+}

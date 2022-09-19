@@ -1,0 +1,47 @@
+﻿{
+    "name": "Player_Dash",
+    "bIsLooping": false,
+    "length": 0.5,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "Effect_Stay",
+            "parameter": "-20 -10 Assets/Animation/Effect/Effect_Dash.json"
+        },
+        {
+            "time": 0.0,
+            "functionName": "Sound",
+            "parameter": "Dash.wav"
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Player/Player_Dash.png::Player_Dash"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Player/Player_Dash.png::Player_Dash"
+            }
+        ]
+    }
+}

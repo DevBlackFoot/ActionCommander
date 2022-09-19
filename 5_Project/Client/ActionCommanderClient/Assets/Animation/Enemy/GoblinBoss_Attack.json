@@ -1,0 +1,76 @@
+﻿{
+    "name": "GoblinBoss_Attack",
+    "bIsLooping": false,
+    "length": 1.0,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "StartEnemyAttack",
+            "parameter": ""
+        },
+        {
+            "time": 0.625,
+            "functionName": "GoblinBoss_Attack",
+            "parameter": "40 -70 80 140"
+        },
+        {
+            "time": 0.875,
+            "functionName": "EndEnemyAttack",
+            "parameter": ""
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_4"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_3"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_2"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_2"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_1"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_0"
+            },
+            {
+                "time": 0.875,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png::GoblinBoss_Attack_0"
+            }
+        ]
+    }
+}

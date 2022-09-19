@@ -1,0 +1,57 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinWarrior_Attack_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 106,
+                "bottom": 100
+            },
+            "pivot": {
+                "x": 0.3679245412349701,
+                "y": 0.029999999329447748
+            }
+        },
+        {
+            "name": "GoblinWarrior_Attack_1",
+            "rect": {
+                "left": 106,
+                "top": 0,
+                "right": 212,
+                "bottom": 100
+            },
+            "pivot": {
+                "x": 0.3679245412349701,
+                "y": 0.029999999329447748
+            }
+        },
+        {
+            "name": "GoblinWarrior_Attack_2",
+            "rect": {
+                "left": 212,
+                "top": 0,
+                "right": 318,
+                "bottom": 100
+            },
+            "pivot": {
+                "x": 0.3679245412349701,
+                "y": 0.029999999329447748
+            }
+        },
+        {
+            "name": "GoblinWarrior_Attack_3",
+            "rect": {
+                "left": 318,
+                "top": 0,
+                "right": 424,
+                "bottom": 100
+            },
+            "pivot": {
+                "x": 0.3679245412349701,
+                "y": 0.029999999329447748
+            }
+        }
+    ]
+}

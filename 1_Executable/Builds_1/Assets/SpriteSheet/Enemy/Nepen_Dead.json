@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/Nepen_Dead.png",
+    "spriteInfos": [
+        {
+            "name": "Nepen_Dead_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 80,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        },
+        {
+            "name": "Nepen_Dead_1",
+            "rect": {
+                "left": 80,
+                "top": 0,
+                "right": 160,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        },
+        {
+            "name": "Nepen_Dead_2",
+            "rect": {
+                "left": 160,
+                "top": 0,
+                "right": 240,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        },
+        {
+            "name": "Nepen_Dead_3",
+            "rect": {
+                "left": 240,
+                "top": 0,
+                "right": 320,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        },
+        {
+            "name": "Nepen_Dead_4",
+            "rect": {
+                "left": 320,
+                "top": 0,
+                "right": 400,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        },
+        {
+            "name": "Nepen_Dead_5",
+            "rect": {
+                "left": 400,
+                "top": 0,
+                "right": 480,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.4749999940395355,
+                "y": 0.08536585420370102
+            }
+        }
+    ]
+}

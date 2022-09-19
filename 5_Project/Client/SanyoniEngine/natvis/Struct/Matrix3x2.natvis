@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="SanyoniEngine::Matrix3x2">
+        <DisplayString
+            Condition="
+        (this->_11 == 1) &amp;&amp; (this->_12 == 0) &amp;&amp;
+        (this->_21 == 0) &amp;&amp; (this->_22 == 1) &amp;&amp;
+        (this->_31 == 0) &amp;&amp; (this->_32 == 0)">
+            Matrix3x2::Identity
+        </DisplayString>
+        <DisplayString>
+            {{{this->_11, g}, {this->_12, g},
+            {this->_21, g}, {this->_22, g},
+            {this->_31, g}, {this->_32, g}}}
+        </DisplayString>
+        <Expand>
+            <Item Name="1_1">this->_11, g</Item>
+            <Item Name="1_2">this->_12, g</Item>
+            <Item Name="2_1">this->_21, g</Item>
+            <Item Name="2_2">this->_22, g</Item>
+            <Item Name="3_1">this->_31, g</Item>
+            <Item Name="3_2">this->_32, g</Item>
+        </Expand>
+    </Type>
+</AutoVisualizer>

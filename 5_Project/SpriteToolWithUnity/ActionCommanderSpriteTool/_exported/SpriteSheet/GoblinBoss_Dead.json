@@ -1,0 +1,200 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinBoss_Dead_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 236,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_1",
+            "rect": {
+                "left": 236,
+                "top": 0,
+                "right": 472,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_2",
+            "rect": {
+                "left": 472,
+                "top": 0,
+                "right": 708,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_3",
+            "rect": {
+                "left": 708,
+                "top": 0,
+                "right": 944,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_4",
+            "rect": {
+                "left": 944,
+                "top": 0,
+                "right": 1180,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_5",
+            "rect": {
+                "left": 1180,
+                "top": 0,
+                "right": 1416,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_6",
+            "rect": {
+                "left": 1416,
+                "top": 0,
+                "right": 1652,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_7",
+            "rect": {
+                "left": 1652,
+                "top": 0,
+                "right": 1888,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_8",
+            "rect": {
+                "left": 1888,
+                "top": 0,
+                "right": 2124,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_9",
+            "rect": {
+                "left": 2124,
+                "top": 0,
+                "right": 2360,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_10",
+            "rect": {
+                "left": 2360,
+                "top": 0,
+                "right": 2596,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_11",
+            "rect": {
+                "left": 2596,
+                "top": 0,
+                "right": 2832,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_12",
+            "rect": {
+                "left": 2832,
+                "top": 0,
+                "right": 3068,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_13",
+            "rect": {
+                "left": 3068,
+                "top": 0,
+                "right": 3304,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        },
+        {
+            "name": "GoblinBoss_Dead_14",
+            "rect": {
+                "left": 3304,
+                "top": 0,
+                "right": 3540,
+                "bottom": 144
+            },
+            "pivot": {
+                "x": 0.22033898532390595,
+                "y": 0.0347222238779068
+            }
+        }
+    ]
+}

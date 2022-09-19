@@ -1,0 +1,57 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinArcher_Attack.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinArcher_Attack_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 94,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.40425533056259158,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Attack_1",
+            "rect": {
+                "left": 94,
+                "top": 0,
+                "right": 188,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.40425533056259158,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Attack_2",
+            "rect": {
+                "left": 188,
+                "top": 0,
+                "right": 282,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.40425533056259158,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinArcher_Attack_3",
+            "rect": {
+                "left": 282,
+                "top": 0,
+                "right": 376,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.40425533056259158,
+                "y": 0.0357142873108387
+            }
+        }
+    ]
+}

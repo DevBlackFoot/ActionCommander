@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "action-commander-client",
+    "version": "0.0.1",
+    "dependencies": [
+        {
+            "name": "entt"
+        },
+        {
+            "name": "cppcoro"
+        },
+        {
+            "name": "rapidjson"
+        }
+    ]
+  }

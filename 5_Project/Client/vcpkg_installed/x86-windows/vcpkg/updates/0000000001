@@ -1,0 +1,9 @@
+Package: cppcoro
+Version: 2020-02-28
+Port-Version: 3
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 05dde5eb2cf13bac260e16ddcf912e46bec43c9409cd1a6ed4bdbfd8b6c068af
+Description: A library of C++ coroutine abstractions for the Coroutines TS
+Type: Port
+Status: install ok installed

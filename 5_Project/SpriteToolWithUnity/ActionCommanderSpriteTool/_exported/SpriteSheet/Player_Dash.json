@@ -1,0 +1,18 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Player/Player_Dash.png",
+    "spriteInfos": [
+        {
+            "name": "Player_Dash",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 98,
+                "bottom": 76
+            },
+            "pivot": {
+                "x": 0.7142857313156128,
+                "y": 0.02631578966975212
+            }
+        }
+    ]
+}

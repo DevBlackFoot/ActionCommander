@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DocApp">
+      <UniqueIdentifier>{c8f8a99f-c68b-401c-a62a-c25a9c83b657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView">
+      <UniqueIdentifier>{1c29c054-e06d-49fc-8339-4e5d050d20d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{043a9043-0e7b-4b3d-a1b6-9aacef7cd777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{a89b486d-944e-41b7-b07d-7d1a0df33dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\0. MainFrame">
+      <UniqueIdentifier>{f4c63244-b094-4c9c-a301-e9e021d20e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View">
+      <UniqueIdentifier>{515f51e8-44a9-4bcc-afdb-b432635d071d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\0. MainView">
+      <UniqueIdentifier>{fdbaecd7-ab62-49b3-b634-61606753c03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\1. MiniMapView">
+      <UniqueIdentifier>{8b785746-7551-44c9-b428-b2363ec6915e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView">
+      <UniqueIdentifier>{1975611f-afef-4ca9-acdc-e2771ab3155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property">
+      <UniqueIdentifier>{15732956-f3b0-4a4d-bb10-d4d5f7e51f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property\TilePage">
+      <UniqueIdentifier>{bbd11758-c5dd-4721-9b27-d4c3ee2ba11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property\ForeGroundPage">
+      <UniqueIdentifier>{b6eb35a9-c8c9-43a9-8534-b174e49be67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property\MonsterPage">
+      <UniqueIdentifier>{17cd5edb-1104-4cba-80e8-738ee4a5b29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a00e764f-7816-40cc-889d-9bedcb9035f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlg">
+      <UniqueIdentifier>{78e948ea-6a86-49cf-838d-eee41d7983c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property\EtcPage">
+      <UniqueIdentifier>{2ad6dbb6-13c9-4338-9348-26d9acdaed7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameView\1. View\2. ControlFormView\Property\FlipForeGroundPage">
+      <UniqueIdentifier>{8c4040f4-e663-494e-9236-87245c6c5a4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionCommanderMapTool.h">
+      <Filter>DocApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionCommanderMapToolDoc.h">
+      <Filter>DocApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionCommanderMapToolView.h">
+      <Filter>FrameView\1. View\0. MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>FrameView\0. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapView.h">
+      <Filter>FrameView\1. View\1. MiniMapView</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlView.h">
+      <Filter>FrameView\1. View\2. ControlFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePage.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\TilePage</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterPage.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\MonsterPage</Filter>
+    </ClInclude>
+    <ClInclude Include="CControlProperty.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapStruct.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSizeDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ForeGroundPage.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\ForeGroundPage</Filter>
+    </ClInclude>
+    <ClInclude Include="EtcPage.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\EtcPage</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipForeGroundPage.h">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\FlipForeGroundPage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionCommanderMapTool.cpp">
+      <Filter>DocApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionCommanderMapToolDoc.cpp">
+      <Filter>DocApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionCommanderMapToolView.cpp">
+      <Filter>FrameView\1. View\0. MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>FrameView\0. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapView.cpp">
+      <Filter>FrameView\1. View\1. MiniMapView</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlView.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePage.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\TilePage</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterPage.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\MonsterPage</Filter>
+    </ClCompile>
+    <ClCompile Include="CControlProperty.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSizeDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeGroundPage.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\ForeGroundPage</Filter>
+    </ClCompile>
+    <ClCompile Include="EtcPage.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\EtcPage</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipForeGroundPage.cpp">
+      <Filter>FrameView\1. View\2. ControlFormView\Property\FlipForeGroundPage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ActionCommanderMapTool.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ActionCommanderMapTool.rc2">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ActionCommanderMapToolDoc.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="res\ActionCommanderMapTool.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="res\icon_pc2.ico">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

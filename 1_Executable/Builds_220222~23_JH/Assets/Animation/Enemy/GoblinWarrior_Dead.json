@@ -1,0 +1,48 @@
+﻿{
+    "name": "GoblinWarrior_Dead",
+    "bIsLooping": false,
+    "length": 0.625,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png::GoblinWarrior_Dead_4"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png::GoblinWarrior_Dead_3"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png::GoblinWarrior_Dead_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png::GoblinWarrior_Dead_1"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png::GoblinWarrior_Dead_0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Player/Player_Skill3.png",
+    "spriteInfos": [
+        {
+            "name": "Player_Skill3_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 126,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.5476190447807312,
+                "y": 0.13636364042758943
+            }
+        },
+        {
+            "name": "Player_Skill3_1",
+            "rect": {
+                "left": 126,
+                "top": 0,
+                "right": 252,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.5396825671195984,
+                "y": 0.13636364042758943
+            }
+        },
+        {
+            "name": "Player_Skill3_2",
+            "rect": {
+                "left": 252,
+                "top": 0,
+                "right": 378,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.579365074634552,
+                "y": 0.14393939077854157
+            }
+        },
+        {
+            "name": "Player_Skill3_3",
+            "rect": {
+                "left": 378,
+                "top": 0,
+                "right": 504,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.5634920597076416,
+                "y": 0.14393939077854157
+            }
+        },
+        {
+            "name": "Player_Skill3_4",
+            "rect": {
+                "left": 504,
+                "top": 0,
+                "right": 630,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.5952380895614624,
+                "y": 0.20454545319080354
+            }
+        },
+        {
+            "name": "Player_Skill3_5",
+            "rect": {
+                "left": 630,
+                "top": 0,
+                "right": 756,
+                "bottom": 132
+            },
+            "pivot": {
+                "x": 0.6111111044883728,
+                "y": 0.25
+            }
+        }
+    ]
+}

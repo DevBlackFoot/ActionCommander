@@ -1,0 +1,70 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Dash.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Dash_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 20,
+                "bottom": 14
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Dash_1",
+            "rect": {
+                "left": 20,
+                "top": 0,
+                "right": 40,
+                "bottom": 14
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Dash_2",
+            "rect": {
+                "left": 40,
+                "top": 0,
+                "right": 60,
+                "bottom": 14
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Dash_3",
+            "rect": {
+                "left": 60,
+                "top": 0,
+                "right": 80,
+                "bottom": 14
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Dash_4",
+            "rect": {
+                "left": 80,
+                "top": 0,
+                "right": 100,
+                "bottom": 14
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

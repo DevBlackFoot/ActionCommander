@@ -1,0 +1,122 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Title/Title1.png",
+    "spriteInfos": [
+        {
+            "name": "Title1_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 989,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.49949443340301516,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_1",
+            "rect": {
+                "left": 990,
+                "top": 0,
+                "right": 1980,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_2",
+            "rect": {
+                "left": 1980,
+                "top": 0,
+                "right": 2970,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_3",
+            "rect": {
+                "left": 2970,
+                "top": 0,
+                "right": 3960,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_4",
+            "rect": {
+                "left": 3960,
+                "top": 0,
+                "right": 4950,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_5",
+            "rect": {
+                "left": 4950,
+                "top": 0,
+                "right": 5940,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_6",
+            "rect": {
+                "left": 5940,
+                "top": 0,
+                "right": 6930,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_7",
+            "rect": {
+                "left": 6930,
+                "top": 0,
+                "right": 7920,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title1_8",
+            "rect": {
+                "left": 7920,
+                "top": 0,
+                "right": 8910,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

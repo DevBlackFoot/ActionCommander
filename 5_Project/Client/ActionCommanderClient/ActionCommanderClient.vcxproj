@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TEST_JH|Win32">
+      <Configuration>TEST_JH</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TEST_JH|x64">
+      <Configuration>TEST_JH</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TEST_SANYONI|Win32">
+      <Configuration>TEST_SANYONI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TEST_SANYONI|x64">
+      <Configuration>TEST_SANYONI</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2a615262-a603-4afb-90d4-dee370b892a7}</ProjectGuid>
+    <RootNamespace>SimpleDX2DExample</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ActionCommanderClient</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\_Builds\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\_Immediate\$(ProjectName)\$(Configuration)_$(Platform)\</IntDir>
+    <IncludePath>$(ProjectDir)\inc\;$(ProjectDir)\inc\_Test_Sanyoni;$(ProjectDir)\inc\_Test_Jaehyeon;$(IncludePath)</IncludePath>
+    <SourcePath>$(ProjectDir)\src\;$(ProjectDir)\src\_Test_Sanyoni;$(ProjectDir)\src\_Test_Jaehyeon;$(SourcePath)</SourcePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <VcpkgConfiguration>Release</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <VcpkgConfiguration>Release</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'">
+    <VcpkgConfiguration>Debug</VcpkgConfiguration>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TEST_JH;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TEST_SANYONI;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TEST_JH;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_TEST_SANYONI;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SanyoniEngine\inc;$(SolutionDir)\SanyoniEngine\inc\Enum;$(SolutionDir)\SanyoniEngine\inc\GameFramework;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Animation;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Collision;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\Collider;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Component\FSM;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Event;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Combat\Component;$(SolutionDir)\SanyoniEngine\inc\GameFramework\Extension\Effect;$(SolutionDir)\SanyoniEngine\inc\Helper;$(SolutionDir)\SanyoniEngine\inc\Helper\Event;$(SolutionDir)\SanyoniEngine\inc\Manager;$(SolutionDir)\SanyoniEngine\inc\Struct;$(SolutionDir)\SanyoniEngine\inc\Struct\Resource;$(SolutionDir)\library\fmod_api_core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\library\;$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SanyoniEngine.lib;d2d1.lib;dwrite.lib;windowscodecs.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "$(SolutionDir)\library\fmod_api_core\lib\$(PlatformTarget)\fmod.dll" "$(OutputPath)"
+xcopy /Y /R "$(ProjectDir)\Assets\*" "$(OutputPath)\Assets\*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\ActionCommanderGameManager.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinBoss\GoblinBossRigidBodyController.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinBoss\GoblinBoss.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinBoss\GoblinBossAnimation.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinBoss\GoblinBossAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\BackgroundMovement.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\AttackTriggerCollider.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\DetectTriggerCollider.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinArcher\GoblinArcherRigidBodyController.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinArcher\GoblinArcherAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinArcher\GoblinArcherAnimation.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinArcher\GoblinArcher.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinWarrior\GoblinWarrior.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorAnimation.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorRigidBodyController.h" />
+    <ClInclude Include="inc\GameApplication.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\CommandQueue.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\FollowPlayer.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\GameOverSceneTransition.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\GameSceneFactory.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\MapData.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\Platform.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\PlayerAnimation.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\PlayerRigidBodyController.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\Portal.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\SanyoniTestApplication.h" />
+    <ClInclude Include="inc\pch.h" />
+    <ClInclude Include="inc\Resource.h" />
+    <ClInclude Include="inc\targetver.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\FollowMouse.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\TitleSceneTransition.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\TransformCamera.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\Player.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\JHTestApplication.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\PlayerAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\ShakeCamera.h" />
+    <ClInclude Include="inc\Sound.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\UnitAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\Nepen\Nepen.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\Nepen\NepenAnimation.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\Nepen\NepenAnimationEventHandler.h" />
+    <ClInclude Include="inc\_Test_Jaehyeon\Nepen\NepenRigidBodyController.h" />
+    <ClInclude Include="inc\PlayerUI.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\Heart.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="inc\_Test_Sanyoni\Arrow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\_Test_Sanyoni\Arrow.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\GameOverSceneTransition.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\Heart.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\Portal.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\ActionCommanderGameManager.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\TitleSceneTransition.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinBoss\GoblinBossRigidBodyController.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinBoss\GoblinBoss.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinBoss\GoblinBossAnimation.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinBoss\GoblinBossAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\BackgroundMovement.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\AttackTriggerCollider.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\DetectTriggerCollider.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\GameSceneFactory.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinArcher\GoblinArcherAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinArcher\GoblinArcherAnimation.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinArcher\GoblinArcherRigidBodyController.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinArcher\GoblinArcher.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinWarrior\GoblinWarrior.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorAnimation.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\GoblinWarrior\GoblinWarriorRigidBodyController.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\UnitAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\Nepen\NepenRigidBodyController.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\Nepen\NepenAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\Nepen\NepenAnimation.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\Nepen\Nepen.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\PlayerAnimation.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\ShakeCamera.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\Platform.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\PlayerAnimationEventHandler.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\PlayerRigidBodyController.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\FollowPlayer.cpp" />
+    <ClCompile Include="src\GameApplication.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\CommandQueue.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\JHTestApplication.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\Player.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\FollowMouse.cpp" />
+    <ClCompile Include="src\_Test_Sanyoni\SanyoniTestApplication.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TEST_JH|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TEST_JH|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TEST_SANYONI|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\_Test_Sanyoni\TransformCamera.cpp" />
+    <ClCompile Include="src\_Test_Jaehyeon\PlayerUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ActionCommanderClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon_pc.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

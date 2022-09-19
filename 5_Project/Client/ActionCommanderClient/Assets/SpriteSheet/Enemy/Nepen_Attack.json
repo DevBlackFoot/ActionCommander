@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/Nepen_Attack.png",
+    "spriteInfos": [
+        {
+            "name": "Nepen_Attack_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 108,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        },
+        {
+            "name": "Nepen_Attack_1",
+            "rect": {
+                "left": 108,
+                "top": 0,
+                "right": 216,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        },
+        {
+            "name": "Nepen_Attack_2",
+            "rect": {
+                "left": 216,
+                "top": 0,
+                "right": 324,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        },
+        {
+            "name": "Nepen_Attack_3",
+            "rect": {
+                "left": 324,
+                "top": 0,
+                "right": 432,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        },
+        {
+            "name": "Nepen_Attack_4",
+            "rect": {
+                "left": 432,
+                "top": 0,
+                "right": 540,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        },
+        {
+            "name": "Nepen_Attack_5",
+            "rect": {
+                "left": 540,
+                "top": 0,
+                "right": 648,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.37037035822868349,
+                "y": 0.04651162773370743
+            }
+        }
+    ]
+}

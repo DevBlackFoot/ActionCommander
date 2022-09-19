@@ -1,0 +1,135 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Skill2_3.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Skill2_3_0",
+            "rect": {
+                "left": 1,
+                "top": 0,
+                "right": 213,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_1",
+            "rect": {
+                "left": 212,
+                "top": 0,
+                "right": 424,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_2",
+            "rect": {
+                "left": 424,
+                "top": 0,
+                "right": 636,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_3",
+            "rect": {
+                "left": 636,
+                "top": 0,
+                "right": 848,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_4",
+            "rect": {
+                "left": 848,
+                "top": 0,
+                "right": 1060,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_5",
+            "rect": {
+                "left": 1060,
+                "top": 0,
+                "right": 1272,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_6",
+            "rect": {
+                "left": 1272,
+                "top": 0,
+                "right": 1484,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_7",
+            "rect": {
+                "left": 1484,
+                "top": 0,
+                "right": 1696,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_8",
+            "rect": {
+                "left": 1696,
+                "top": 0,
+                "right": 1908,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill2_3_9",
+            "rect": {
+                "left": 1908,
+                "top": 0,
+                "right": 2120,
+                "bottom": 112
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+# Rules in this file were initially inferred by Visual Studio IntelliCode from the E:\SVN\GA2021\2D Game Programming_Assignment\03_Collision_Detection\강상연\src\SanyoniEngine\ codebase based on best match to current usage at 2022-01-30
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+
+[*.{c, cpp, h, hpp, inl}]
+# Set default charset
+charset = utf-8-bom
+
+# Tab indentation (no size specified)
+indent_style = tab
+
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+
+
+# Visual C++ Code Style settings
+
+cpp_generate_documentation_comments = doxygen_slash_star
+

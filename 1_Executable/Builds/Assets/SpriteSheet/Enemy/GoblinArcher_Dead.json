@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinArcher_Dead.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinArcher_Dead_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 98,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        },
+        {
+            "name": "GoblinArcher_Dead_1",
+            "rect": {
+                "left": 98,
+                "top": 0,
+                "right": 196,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        },
+        {
+            "name": "GoblinArcher_Dead_2",
+            "rect": {
+                "left": 196,
+                "top": 0,
+                "right": 294,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        },
+        {
+            "name": "GoblinArcher_Dead_3",
+            "rect": {
+                "left": 294,
+                "top": 0,
+                "right": 392,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        },
+        {
+            "name": "GoblinArcher_Dead_4",
+            "rect": {
+                "left": 392,
+                "top": 0,
+                "right": 490,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        },
+        {
+            "name": "GoblinArcher_Dead_5",
+            "rect": {
+                "left": 490,
+                "top": 0,
+                "right": 588,
+                "bottom": 98
+            },
+            "pivot": {
+                "x": 0.47959184646606448,
+                "y": 0.040816325694322589
+            }
+        }
+    ]
+}

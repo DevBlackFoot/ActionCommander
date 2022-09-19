@@ -1,0 +1,32 @@
+﻿{
+    "name": "Player_Airborne",
+    "bIsLooping": true,
+    "length": 0.0833333358168602,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Player/Player_Jump.png::Jump_3"
+            }
+        ]
+    }
+}

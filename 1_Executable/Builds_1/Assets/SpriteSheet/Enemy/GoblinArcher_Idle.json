@@ -1,0 +1,44 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinArcher_Idle.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinArcher_Idle_Sheet_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 76,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.34210526943206789,
+                "y": 0.02380952425301075
+            }
+        },
+        {
+            "name": "GoblinArcher_Idle_Sheet_1",
+            "rect": {
+                "left": 76,
+                "top": 0,
+                "right": 152,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.34210526943206789,
+                "y": 0.02380952425301075
+            }
+        },
+        {
+            "name": "GoblinArcher_Idle_Sheet_2",
+            "rect": {
+                "left": 152,
+                "top": 0,
+                "right": 228,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.34210526943206789,
+                "y": 0.02380952425301075
+            }
+        }
+    ]
+}

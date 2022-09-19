@@ -1,0 +1,161 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Player/Player_Skill2.png",
+    "spriteInfos": [
+        {
+            "name": "Player_Skill2_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 192,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_1",
+            "rect": {
+                "left": 192,
+                "top": 0,
+                "right": 384,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_2",
+            "rect": {
+                "left": 384,
+                "top": 0,
+                "right": 576,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_3",
+            "rect": {
+                "left": 576,
+                "top": 0,
+                "right": 768,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_4",
+            "rect": {
+                "left": 768,
+                "top": 0,
+                "right": 960,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_5",
+            "rect": {
+                "left": 960,
+                "top": 0,
+                "right": 1152,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_6",
+            "rect": {
+                "left": 1152,
+                "top": 0,
+                "right": 1344,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4322916567325592,
+                "y": 0.03703703731298447
+            }
+        },
+        {
+            "name": "Player_Skill2_7",
+            "rect": {
+                "left": 1344,
+                "top": 0,
+                "right": 1536,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.421875,
+                "y": 0.03703703731298447
+            }
+        },
+        {
+            "name": "Player_Skill2_8",
+            "rect": {
+                "left": 1536,
+                "top": 0,
+                "right": 1728,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.03703703731298447
+            }
+        },
+        {
+            "name": "Player_Skill2_9",
+            "rect": {
+                "left": 1728,
+                "top": 0,
+                "right": 1920,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4583333432674408,
+                "y": 0.02777777798473835
+            }
+        },
+        {
+            "name": "Player_Skill2_10",
+            "rect": {
+                "left": 1920,
+                "top": 0,
+                "right": 2112,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.4114583432674408,
+                "y": 0.03703703731298447
+            }
+        },
+        {
+            "name": "Player_Skill2_11",
+            "rect": {
+                "left": 2112,
+                "top": 0,
+                "right": 2304,
+                "bottom": 108
+            },
+            "pivot": {
+                "x": 0.40625,
+                "y": 0.03703703731298447
+            }
+        }
+    ]
+}

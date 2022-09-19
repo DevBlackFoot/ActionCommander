@@ -1,0 +1,48 @@
+﻿{
+    "name": "Effect_Dash",
+    "bIsLooping": false,
+    "length": 0.4166666865348816,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Effect/Effect_Dash.png::Effect_Dash_0"
+            },
+            {
+                "time": 0.0833333358168602,
+                "value": "Assets/SpriteSheet/Effect/Effect_Dash.png::Effect_Dash_1"
+            },
+            {
+                "time": 0.1666666716337204,
+                "value": "Assets/SpriteSheet/Effect/Effect_Dash.png::Effect_Dash_2"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Effect/Effect_Dash.png::Effect_Dash_3"
+            },
+            {
+                "time": 0.3333333432674408,
+                "value": "Assets/SpriteSheet/Effect/Effect_Dash.png::Effect_Dash_4"
+            }
+        ]
+    }
+}

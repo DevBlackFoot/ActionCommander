@@ -1,0 +1,35 @@
+오후 9:02 2022-02-17
+===============================================================
+Json 파일의 키에 어떤 값들이 들어가 있는지에 대한 txt파일입니다.
+===============================================================
+Json 키 일람
+
+"MapSize"
+	- 맵 사이즈 정보
+	- [ x, y ] 순
+	- 그리드로 치환된 값이 들어가 있다
+"TileMapData"
+	- 타일 맵 데이터, 타일들의 배열
+	- Tile 배열로 이루어져 있음
+	- Tile은 [left, top, (int)TileAttribute]
+		- 해석 순서상 Attribute부터
+	- Attribute는 16진법으로 분리되어 있다.
+"Colliders"
+	- 타일 맵 콜라이더에 대한 정보.
+	- CRect list로 이루어져 있음 => 배열로 이루어져 있음
+	- CRect [left, top, right, bottom] 순으로 들어가 있다.
+"TileSize"
+	- DeFine으로 정의된 타일 사이즈 정보
+	- int
+"ObjectMapData"
+	- 오브젝트 맵 데이터, 오브젝트들의 배열
+	- Object 배열로 이루어져 있음
+	- Objcet는 [left, top, centerX, centerY, bmpWidth, bmpHeight, (int)ObjectAttribute]
+	- [int, int, int, int, float, float]
+	- Attribute는 16진법으로 분리되어 있다.
+"MonsterCount", "PlayerCount", "PortalCount"
+	- 맵툴에서 사용하기 위한 각종 Object 카운트
+	- int
+"ClearEng", "ClearKor", "ClearName"
+	- 맵툴에서 사용하기 위한 각종 Bool 값
+	- 클리어 글자들 기록 용

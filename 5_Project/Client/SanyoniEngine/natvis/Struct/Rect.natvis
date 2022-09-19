@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="SanyoniEngine::Rect">
+        <DisplayString>{{ leftTop: {{ x: {left, g}, y: {top, g} }}, rightBottom: {{ x: {right, g}, y: {bottom, g} }} }}</DisplayString>
+        <Expand></Expand>
+    </Type>
+</AutoVisualizer>

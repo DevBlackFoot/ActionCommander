@@ -1,0 +1,174 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Skill4_2.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Skill4_2_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 244,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_1",
+            "rect": {
+                "left": 244,
+                "top": 0,
+                "right": 488,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_2",
+            "rect": {
+                "left": 488,
+                "top": 0,
+                "right": 732,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_3",
+            "rect": {
+                "left": 732,
+                "top": 0,
+                "right": 976,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_4",
+            "rect": {
+                "left": 976,
+                "top": 0,
+                "right": 1220,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_5",
+            "rect": {
+                "left": 1220,
+                "top": 0,
+                "right": 1464,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_6",
+            "rect": {
+                "left": 1464,
+                "top": 0,
+                "right": 1708,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_7",
+            "rect": {
+                "left": 1708,
+                "top": 0,
+                "right": 1952,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_8",
+            "rect": {
+                "left": 1952,
+                "top": 0,
+                "right": 2196,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_9",
+            "rect": {
+                "left": 2196,
+                "top": 0,
+                "right": 2440,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_10",
+            "rect": {
+                "left": 2440,
+                "top": 0,
+                "right": 2684,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_11",
+            "rect": {
+                "left": 2684,
+                "top": 0,
+                "right": 2928,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Effect_Skill4_2_12",
+            "rect": {
+                "left": 2928,
+                "top": 0,
+                "right": 3172,
+                "bottom": 88
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ]
+}

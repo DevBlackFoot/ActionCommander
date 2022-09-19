@@ -1,0 +1,70 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinWarrior_Dead.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinWarrior_Dead_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 106,
+                "bottom": 96
+            },
+            "pivot": {
+                "x": 0.4433962404727936,
+                "y": 0.02083333395421505
+            }
+        },
+        {
+            "name": "GoblinWarrior_Dead_1",
+            "rect": {
+                "left": 106,
+                "top": 0,
+                "right": 212,
+                "bottom": 96
+            },
+            "pivot": {
+                "x": 0.4433962404727936,
+                "y": 0.02083333395421505
+            }
+        },
+        {
+            "name": "GoblinWarrior_Dead_2",
+            "rect": {
+                "left": 212,
+                "top": 0,
+                "right": 318,
+                "bottom": 96
+            },
+            "pivot": {
+                "x": 0.4433962404727936,
+                "y": 0.02083333395421505
+            }
+        },
+        {
+            "name": "GoblinWarrior_Dead_3",
+            "rect": {
+                "left": 318,
+                "top": 0,
+                "right": 424,
+                "bottom": 96
+            },
+            "pivot": {
+                "x": 0.4433962404727936,
+                "y": 0.02083333395421505
+            }
+        },
+        {
+            "name": "GoblinWarrior_Dead_4",
+            "rect": {
+                "left": 424,
+                "top": 0,
+                "right": 530,
+                "bottom": 96
+            },
+            "pivot": {
+                "x": 0.4433962404727936,
+                "y": 0.02083333395421505
+            }
+        }
+    ]
+}

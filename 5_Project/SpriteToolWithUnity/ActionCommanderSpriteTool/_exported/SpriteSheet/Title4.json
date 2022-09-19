@@ -1,0 +1,96 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Title/Title4.png",
+    "spriteInfos": [
+        {
+            "name": "Title4_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 990,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_1",
+            "rect": {
+                "left": 990,
+                "top": 0,
+                "right": 1980,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_2",
+            "rect": {
+                "left": 1980,
+                "top": 0,
+                "right": 2970,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_3",
+            "rect": {
+                "left": 2970,
+                "top": 0,
+                "right": 3960,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_4",
+            "rect": {
+                "left": 3960,
+                "top": 0,
+                "right": 4950,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_5",
+            "rect": {
+                "left": 4950,
+                "top": 0,
+                "right": 5940,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Title4_6",
+            "rect": {
+                "left": 5940,
+                "top": 0,
+                "right": 6930,
+                "bottom": 540
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

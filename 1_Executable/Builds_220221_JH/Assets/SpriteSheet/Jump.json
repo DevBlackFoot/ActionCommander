@@ -1,0 +1,57 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Jump.png",
+    "spriteInfos": [
+        {
+            "name": "Jump_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 76,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Jump_1",
+            "rect": {
+                "left": 76,
+                "top": 0,
+                "right": 152,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Jump_2",
+            "rect": {
+                "left": 152,
+                "top": 0,
+                "right": 228,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Jump_3",
+            "rect": {
+                "left": 228,
+                "top": 0,
+                "right": 304,
+                "bottom": 86
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

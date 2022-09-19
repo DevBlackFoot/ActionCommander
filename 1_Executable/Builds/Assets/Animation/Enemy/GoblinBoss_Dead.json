@@ -1,0 +1,88 @@
+﻿{
+    "name": "GoblinBoss_Dead",
+    "bIsLooping": false,
+    "length": 1.875,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_14"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_13"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_12"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_11"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_10"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_9"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_8"
+            },
+            {
+                "time": 0.875,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_7"
+            },
+            {
+                "time": 1.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_6"
+            },
+            {
+                "time": 1.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_5"
+            },
+            {
+                "time": 1.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_4"
+            },
+            {
+                "time": 1.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_3"
+            },
+            {
+                "time": 1.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_2"
+            },
+            {
+                "time": 1.625,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_1"
+            },
+            {
+                "time": 1.75,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Dead.png::GoblinBoss_Dead_0"
+            }
+        ]
+    }
+}

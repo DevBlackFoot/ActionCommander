@@ -1,0 +1,60 @@
+﻿{
+    "name": "Effect_Charging",
+    "bIsLooping": false,
+    "length": 1.0,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_0"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_3"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_4"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_5"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_6"
+            },
+            {
+                "time": 0.875,
+                "value": "Assets/SpriteSheet/Effect/Effect_Charging.png::Effect_Charging_7"
+            }
+        ]
+    }
+}

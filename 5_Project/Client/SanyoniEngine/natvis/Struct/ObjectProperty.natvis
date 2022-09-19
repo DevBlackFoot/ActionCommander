@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="SanyoniEngine::ObjectProperty">
+        <DisplayString>{this->m_Name}(UID: {this->m_UID})</DisplayString>
+        <Expand>
+            <Item Name="name">this->m_Name</Item>
+            <Item Name="UID">this->m_UID</Item>
+            <Item Name="UIDInType">this->m_UIDInType</Item>
+        </Expand>
+    </Type>
+</AutoVisualizer>

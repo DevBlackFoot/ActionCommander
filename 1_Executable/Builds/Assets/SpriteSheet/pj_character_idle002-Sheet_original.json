@@ -1,0 +1,96 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/pj_character_idle002-Sheet_original.png",
+    "spriteInfos": [
+        {
+            "name": "pj_character_idle002-Sheet_original_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 77,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_1",
+            "rect": {
+                "left": 77,
+                "top": 0,
+                "right": 154,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_2",
+            "rect": {
+                "left": 154,
+                "top": 0,
+                "right": 231,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_3",
+            "rect": {
+                "left": 231,
+                "top": 0,
+                "right": 308,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_4",
+            "rect": {
+                "left": 308,
+                "top": 0,
+                "right": 385,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_5",
+            "rect": {
+                "left": 385,
+                "top": 0,
+                "right": 462,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        },
+        {
+            "name": "pj_character_idle002-Sheet_original_6",
+            "rect": {
+                "left": 462,
+                "top": 0,
+                "right": 539,
+                "bottom": 79
+            },
+            "pivot": {
+                "x": 0.4935064911842346,
+                "y": 0.49367088079452517
+            }
+        }
+    ]
+}

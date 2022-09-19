@@ -1,0 +1,44 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinWarrior_Idle.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinWarrior_Idle_Sheet_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 80,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.32499998807907107,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinWarrior_Idle_Sheet_1",
+            "rect": {
+                "left": 80,
+                "top": 0,
+                "right": 160,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.32499998807907107,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinWarrior_Idle_Sheet_2",
+            "rect": {
+                "left": 160,
+                "top": 0,
+                "right": 240,
+                "bottom": 84
+            },
+            "pivot": {
+                "x": 0.32499998807907107,
+                "y": 0.0357142873108387
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/character_normal_attack_2.png",
+    "spriteInfos": [
+        {
+            "name": "character_normal_attack_2_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 180,
+                "bottom": 136
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "character_normal_attack_2_1",
+            "rect": {
+                "left": 180,
+                "top": 0,
+                "right": 360,
+                "bottom": 136
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "character_normal_attack_2_2",
+            "rect": {
+                "left": 360,
+                "top": 0,
+                "right": 540,
+                "bottom": 136
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "character_normal_attack_2_3",
+            "rect": {
+                "left": 540,
+                "top": 0,
+                "right": 720,
+                "bottom": 136
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "character_normal_attack_2_4",
+            "rect": {
+                "left": 720,
+                "top": 0,
+                "right": 900,
+                "bottom": 136
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

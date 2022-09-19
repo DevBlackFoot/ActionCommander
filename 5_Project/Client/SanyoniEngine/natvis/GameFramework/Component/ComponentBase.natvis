@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="SanyoniEngine::ComponentBase">
+        <DisplayString Condition="this->m_bEnable == false">
+            {{ (disabled) {this->m_Property}, gameObject: {this->m_GameObject} }}
+        </DisplayString>
+        <DisplayString>
+            {{ (disabled) {this->m_Property}, gameObject: {this->m_GameObject} }}
+        </DisplayString>
+        <Expand>
+        </Expand>
+    </Type>
+</AutoVisualizer>

@@ -1,0 +1,52 @@
+﻿{
+    "name": "GoblinArcher_Walk",
+    "bIsLooping": true,
+    "length": 0.75,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_0"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_3"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_4"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Enemy/GoblinArcher_Walk.png::GoblinArcher_Walk_Sheet_5"
+            }
+        ]
+    }
+}

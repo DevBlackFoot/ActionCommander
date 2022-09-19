@@ -1,0 +1,83 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Player/Player_Skill4.png",
+    "spriteInfos": [
+        {
+            "name": "Player_Skill4_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 80,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.612500011920929,
+                "y": 0.17777778208255769
+            }
+        },
+        {
+            "name": "Player_Skill4_1",
+            "rect": {
+                "left": 80,
+                "top": 0,
+                "right": 160,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.6625000238418579,
+                "y": 0.03333333507180214
+            }
+        },
+        {
+            "name": "Player_Skill4_2",
+            "rect": {
+                "left": 160,
+                "top": 0,
+                "right": 240,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.699999988079071,
+                "y": 0.07777778059244156
+            }
+        },
+        {
+            "name": "Player_Skill4_3",
+            "rect": {
+                "left": 240,
+                "top": 0,
+                "right": 320,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.699999988079071,
+                "y": 0.07777778059244156
+            }
+        },
+        {
+            "name": "Player_Skill4_4",
+            "rect": {
+                "left": 320,
+                "top": 0,
+                "right": 400,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.7124999761581421,
+                "y": 0.07777778059244156
+            }
+        },
+        {
+            "name": "Player_Skill4_5",
+            "rect": {
+                "left": 400,
+                "top": 0,
+                "right": 480,
+                "bottom": 90
+            },
+            "pivot": {
+                "x": 0.7124999761581421,
+                "y": 0.08888889104127884
+            }
+        }
+    ]
+}

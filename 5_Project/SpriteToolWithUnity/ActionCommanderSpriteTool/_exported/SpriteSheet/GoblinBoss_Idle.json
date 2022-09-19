@@ -1,0 +1,44 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinBoss_Idle.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinBoss_Idle_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 142,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.3661971688270569,
+                "y": 0.027397260069847108
+            }
+        },
+        {
+            "name": "GoblinBoss_Idle_1",
+            "rect": {
+                "left": 142,
+                "top": 0,
+                "right": 284,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.3661971688270569,
+                "y": 0.027397260069847108
+            }
+        },
+        {
+            "name": "GoblinBoss_Idle_2",
+            "rect": {
+                "left": 284,
+                "top": 0,
+                "right": 426,
+                "bottom": 146
+            },
+            "pivot": {
+                "x": 0.3661971688270569,
+                "y": 0.027397260069847108
+            }
+        }
+    ]
+}

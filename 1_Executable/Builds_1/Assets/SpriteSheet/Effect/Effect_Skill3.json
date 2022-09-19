@@ -1,0 +1,96 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Skill3.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Skill3_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 110,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_1",
+            "rect": {
+                "left": 110,
+                "top": 0,
+                "right": 220,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_2",
+            "rect": {
+                "left": 220,
+                "top": 0,
+                "right": 330,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_3",
+            "rect": {
+                "left": 330,
+                "top": 0,
+                "right": 440,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_4",
+            "rect": {
+                "left": 440,
+                "top": 0,
+                "right": 550,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_5",
+            "rect": {
+                "left": 550,
+                "top": 0,
+                "right": 660,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Skill3_6",
+            "rect": {
+                "left": 660,
+                "top": 0,
+                "right": 770,
+                "bottom": 128
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

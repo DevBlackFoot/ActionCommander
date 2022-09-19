@@ -1,0 +1,31 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/GameOver/GameOver.png",
+    "spriteInfos": [
+        {
+            "name": "GameOver_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 246,
+                "bottom": 134
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "GameOver_1",
+            "rect": {
+                "left": 246,
+                "top": 0,
+                "right": 492,
+                "bottom": 134
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

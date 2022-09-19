@@ -1,0 +1,44 @@
+﻿{
+    "name": "Effect_Skill4_1",
+    "bIsLooping": false,
+    "length": 0.5,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Effect/Effect_Skill4_1.png::Effect_Skill4_1_0"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Effect/Effect_Skill4_1.png::Effect_Skill4_1_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Effect/Effect_Skill4_1.png::Effect_Skill4_1_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Effect/Effect_Skill4_1.png::Effect_Skill4_1_3"
+            }
+        ]
+    }
+}

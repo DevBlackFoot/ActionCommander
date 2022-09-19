@@ -1,0 +1,88 @@
+﻿{
+    "name": "Attack1",
+    "bIsLooping": false,
+    "length": 0.5,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "StartAttack",
+            "parameter": ""
+        },
+        {
+            "time": 0.1666666716337204,
+            "functionName": "AddForce",
+            "parameter": "5 0 "
+        },
+        {
+            "time": 0.25,
+            "functionName": "BasicAttack_1",
+            "parameter": "50 0 100 75"
+        },
+        {
+            "time": 0.25,
+            "functionName": "Sound",
+            "parameter": "Sword_Swing.wav"
+        },
+        {
+            "time": 0.3333333432674408,
+            "functionName": "CanGoNextAttack",
+            "parameter": ""
+        },
+        {
+            "time": 0.3333333432674408,
+            "functionName": "Freeze",
+            "parameter": ""
+        },
+        {
+            "time": 0.5,
+            "functionName": "EndAttack",
+            "parameter": ""
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_0"
+            },
+            {
+                "time": 0.0833333358168602,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_0"
+            },
+            {
+                "time": 0.1666666716337204,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_2"
+            },
+            {
+                "time": 0.3333333432674408,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_3"
+            },
+            {
+                "time": 0.4166666567325592,
+                "value": "Assets/SpriteSheet/character_normal_attack_1.png::character_normal_attack_1_3"
+            }
+        ]
+    }
+}

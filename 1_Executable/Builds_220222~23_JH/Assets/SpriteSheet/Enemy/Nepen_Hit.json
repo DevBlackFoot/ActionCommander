@@ -1,0 +1,18 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/Nepen_Hit.png",
+    "spriteInfos": [
+        {
+            "name": "Nepen_Hit",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 80,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

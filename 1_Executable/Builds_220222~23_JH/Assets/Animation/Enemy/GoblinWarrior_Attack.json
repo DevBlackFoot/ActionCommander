@@ -1,0 +1,62 @@
+﻿{
+    "name": "GoblinWarrior_Attack",
+    "bIsLooping": false,
+    "length": 0.5833333134651184,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.5,
+            "functionName": "GoblinWarrior_Attack",
+            "parameter": "30 -50 60 40"
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_0"
+            },
+            {
+                "time": 0.0833333358168602,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_0"
+            },
+            {
+                "time": 0.1666666716337204,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_0"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_0"
+            },
+            {
+                "time": 0.3333333432674408,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_1"
+            },
+            {
+                "time": 0.4166666567325592,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_2"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Attack.png::GoblinWarrior_Attack_3"
+            }
+        ]
+    }
+}

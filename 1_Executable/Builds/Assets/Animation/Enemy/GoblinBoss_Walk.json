@@ -1,0 +1,56 @@
+﻿{
+    "name": "GoblinBoss_Walk",
+    "bIsLooping": true,
+    "length": 0.875,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_6"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_5"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_4"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_3"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_2"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_1"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Enemy/GoblinBoss_Walk.png::GoblinBoss_Walk_0"
+            }
+        ]
+    }
+}

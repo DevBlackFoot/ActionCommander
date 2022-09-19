@@ -1,0 +1,40 @@
+﻿{
+    "name": "GoblinWarrior_Idle",
+    "bIsLooping": true,
+    "length": 0.375,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Idle.png::GoblinWarrior_Idle_Sheet_0"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Idle.png::GoblinWarrior_Idle_Sheet_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Enemy/GoblinWarrior_Idle.png::GoblinWarrior_Idle_Sheet_2"
+            }
+        ]
+    }
+}

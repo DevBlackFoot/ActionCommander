@@ -1,0 +1,70 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/Nepen_Idle_Sheet.png",
+    "spriteInfos": [
+        {
+            "name": "Nepen_Idle_Sheet_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 80,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0731707289814949
+            }
+        },
+        {
+            "name": "Nepen_Idle_Sheet_1",
+            "rect": {
+                "left": 80,
+                "top": 0,
+                "right": 160,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0731707289814949
+            }
+        },
+        {
+            "name": "Nepen_Idle_Sheet_2",
+            "rect": {
+                "left": 160,
+                "top": 0,
+                "right": 240,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0731707289814949
+            }
+        },
+        {
+            "name": "Nepen_Idle_Sheet_3",
+            "rect": {
+                "left": 240,
+                "top": 0,
+                "right": 320,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0731707289814949
+            }
+        },
+        {
+            "name": "Nepen_Idle_Sheet_4",
+            "rect": {
+                "left": 320,
+                "top": 0,
+                "right": 400,
+                "bottom": 82
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0731707289814949
+            }
+        }
+    ]
+}

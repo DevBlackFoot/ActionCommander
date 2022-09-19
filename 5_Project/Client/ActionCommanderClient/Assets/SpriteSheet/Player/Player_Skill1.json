@@ -1,0 +1,96 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Player/Player_Skill1.png",
+    "spriteInfos": [
+        {
+            "name": "Player_Skill1_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 154,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_1",
+            "rect": {
+                "left": 154,
+                "top": 0,
+                "right": 308,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_2",
+            "rect": {
+                "left": 308,
+                "top": 0,
+                "right": 462,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_3",
+            "rect": {
+                "left": 462,
+                "top": 0,
+                "right": 616,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_4",
+            "rect": {
+                "left": 616,
+                "top": 0,
+                "right": 770,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_5",
+            "rect": {
+                "left": 770,
+                "top": 0,
+                "right": 924,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        },
+        {
+            "name": "Player_Skill1_6",
+            "rect": {
+                "left": 924,
+                "top": 0,
+                "right": 1078,
+                "bottom": 78
+            },
+            "pivot": {
+                "x": 0.4350649416446686,
+                "y": 0.03846153989434242
+            }
+        }
+    ]
+}

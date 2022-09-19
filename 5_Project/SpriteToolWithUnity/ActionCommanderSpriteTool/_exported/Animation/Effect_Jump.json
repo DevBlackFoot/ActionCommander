@@ -1,0 +1,52 @@
+﻿{
+    "name": "Effect_Jump",
+    "bIsLooping": false,
+    "length": 0.375,
+    "valueCurves": [],
+    "eventInfos": [],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_0"
+            },
+            {
+                "time": 0.0625,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_1"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_2"
+            },
+            {
+                "time": 0.1875,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_3"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_4"
+            },
+            {
+                "time": 0.3125,
+                "value": "Assets/SpriteSheet/Effect/Effect_Jump.png::Jump_Effect_Sheet_5"
+            }
+        ]
+    }
+}

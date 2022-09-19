@@ -1,0 +1,194 @@
+﻿{
+    "name": "Player_Skill2",
+    "bIsLooping": false,
+    "length": 1.6666667461395264,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "Effect_Follow",
+            "parameter": "0 -5 Assets/Animation/Effect/Effect_Skill2_1.json"
+        },
+        {
+            "time": 0.0,
+            "functionName": "AddForce",
+            "parameter": "3 0"
+        },
+        {
+            "time": 0.0,
+            "functionName": "StartSkillAttack",
+            "parameter": ""
+        },
+        {
+            "time": 0.0,
+            "functionName": "Skill2_Attack1_Left",
+            "parameter": "-60 -35 80 70"
+        },
+        {
+            "time": 0.1666666716337204,
+            "functionName": "Skill2_Attack1_Right",
+            "parameter": "50 -35 100 70"
+        },
+        {
+            "time": 0.25,
+            "functionName": "AddForce",
+            "parameter": "3 0"
+        },
+        {
+            "time": 0.3333333432674408,
+            "functionName": "Skill2_Attack2_Left",
+            "parameter": "-60 -35 80 70"
+        },
+        {
+            "time": 0.5,
+            "functionName": "Effect_Follow",
+            "parameter": "-35 -75 Assets/Animation/Effect/Effect_Charging.json"
+        },
+        {
+            "time": 0.5,
+            "functionName": "AddForce",
+            "parameter": "3 0"
+        },
+        {
+            "time": 0.5,
+            "functionName": "SKill2_Attack2_Right",
+            "parameter": "50 -35 100 70"
+        },
+        {
+            "time": 1.0,
+            "functionName": "Effect_Follow",
+            "parameter": "60 -45 Assets/Animation/Effect/Effect_Skill2_2.json"
+        },
+        {
+            "time": 1.0833333730697632,
+            "functionName": "Sound",
+            "parameter": "Skill_Ground_Hit.wav"
+        },
+        {
+            "time": 1.0833333730697632,
+            "functionName": "SKill2_Attack3",
+            "parameter": "50 -35 100 70"
+        },
+        {
+            "time": 1.0833333730697632,
+            "functionName": "CameraShake",
+            "parameter": "1 3 0.3"
+        },
+        {
+            "time": 1.0833333730697632,
+            "functionName": "Effect_Stay",
+            "parameter": "60 10 Assets/Animation/Effect/Effect_Skill2_3.json"
+        },
+        {
+            "time": 1.1666666269302369,
+            "functionName": "Skill2_Attack4",
+            "parameter": "300 -35 300 70"
+        },
+        {
+            "time": 1.6666666269302369,
+            "functionName": "EndSkillAttack",
+            "parameter": ""
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_0"
+            },
+            {
+                "time": 0.0833333358168602,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_1"
+            },
+            {
+                "time": 0.1666666716337204,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_2"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_3"
+            },
+            {
+                "time": 0.3333333432674408,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_4"
+            },
+            {
+                "time": 0.4166666567325592,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_5"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_6"
+            },
+            {
+                "time": 0.5833333134651184,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_7"
+            },
+            {
+                "time": 0.6666666865348816,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_8"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_9"
+            },
+            {
+                "time": 0.8333333134651184,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_9"
+            },
+            {
+                "time": 0.9166666865348816,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_9"
+            },
+            {
+                "time": 1.0,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_9"
+            },
+            {
+                "time": 1.0833333730697632,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_10"
+            },
+            {
+                "time": 1.1666666269302369,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            },
+            {
+                "time": 1.25,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            },
+            {
+                "time": 1.3333333730697632,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            },
+            {
+                "time": 1.4166666269302369,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            },
+            {
+                "time": 1.5,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            },
+            {
+                "time": 1.5833333730697632,
+                "value": "Assets/SpriteSheet/Player/Player_Skill2.png::Player_Skill2_11"
+            }
+        ]
+    }
+}

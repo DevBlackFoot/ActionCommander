@@ -1,0 +1,44 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Effect/Effect_Hit1.png",
+    "spriteInfos": [
+        {
+            "name": "Effect_Hit1_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 48,
+                "bottom": 50
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Hit1_1",
+            "rect": {
+                "left": 48,
+                "top": 0,
+                "right": 96,
+                "bottom": 50
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "Effect_Hit1_2",
+            "rect": {
+                "left": 96,
+                "top": 0,
+                "right": 144,
+                "bottom": 50
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

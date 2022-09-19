@@ -1,0 +1,112 @@
+﻿{
+    "name": "Player_Skill1",
+    "bIsLooping": false,
+    "length": 0.875,
+    "valueCurves": [],
+    "eventInfos": [
+        {
+            "time": 0.0,
+            "functionName": "StartSkillAttack",
+            "parameter": ""
+        },
+        {
+            "time": 0.0,
+            "functionName": "Effect_Follow",
+            "parameter": "-20 -60 Assets/Animation/Effect/Effect_Skill1_1.json"
+        },
+        {
+            "time": 0.0,
+            "functionName": "AddForce",
+            "parameter": "20 0"
+        },
+        {
+            "time": 0.0,
+            "functionName": "Sound",
+            "parameter": "Skill_Voice1.wav"
+        },
+        {
+            "time": 0.125,
+            "functionName": "CameraShake_Rect",
+            "parameter": "0 -35 150 75 5 5 0.2"
+        },
+        {
+            "time": 0.125,
+            "functionName": "Skill1_Attack1",
+            "parameter": "0 -35 150 75"
+        },
+        {
+            "time": 0.5,
+            "functionName": "Freeze",
+            "parameter": ""
+        },
+        {
+            "time": 0.5,
+            "functionName": "Effect_Follow",
+            "parameter": "65 -50 Assets/Animation/Effect/Effect_Skill1_2.json"
+        },
+        {
+            "time": 0.625,
+            "functionName": "Skill1_Attack2",
+            "parameter": "75 -35 150 75"
+        },
+        {
+            "time": 0.625,
+            "functionName": "CameraShake_Rect",
+            "parameter": "75 0 150 75 5 5 0.2"
+        },
+        {
+            "time": 0.75,
+            "functionName": "EndSkillAttack",
+            "parameter": ""
+        }
+    ],
+    "positionXCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionYCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "positionZCurve": {
+        "typeName": "",
+        "propertyName": "",
+        "keyframes": []
+    },
+    "spriteCurve": {
+        "typeName": "UnityEngine.SpriteRenderer",
+        "propertyName": "m_Sprite",
+        "keyframes": [
+            {
+                "time": 0.0,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_0"
+            },
+            {
+                "time": 0.125,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_1"
+            },
+            {
+                "time": 0.25,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_2"
+            },
+            {
+                "time": 0.375,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_4"
+            },
+            {
+                "time": 0.5,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_5"
+            },
+            {
+                "time": 0.625,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_6"
+            },
+            {
+                "time": 0.75,
+                "value": "Assets/SpriteSheet/Player/Player_Skill1.png::Player_Skill1_6"
+            }
+        ]
+    }
+}

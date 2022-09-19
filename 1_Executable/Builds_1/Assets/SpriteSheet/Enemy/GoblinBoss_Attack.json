@@ -1,0 +1,70 @@
+﻿{
+    "sheetName": "Assets/SpriteSheet/Enemy/GoblinBoss_Attack.png",
+    "spriteInfos": [
+        {
+            "name": "GoblinBoss_Attack_0",
+            "rect": {
+                "left": 0,
+                "top": 0,
+                "right": 154,
+                "bottom": 168
+            },
+            "pivot": {
+                "x": 0.33766233921051028,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinBoss_Attack_1",
+            "rect": {
+                "left": 154,
+                "top": 0,
+                "right": 308,
+                "bottom": 168
+            },
+            "pivot": {
+                "x": 0.33766233921051028,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinBoss_Attack_2",
+            "rect": {
+                "left": 308,
+                "top": 0,
+                "right": 462,
+                "bottom": 168
+            },
+            "pivot": {
+                "x": 0.33766233921051028,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinBoss_Attack_3",
+            "rect": {
+                "left": 462,
+                "top": 0,
+                "right": 616,
+                "bottom": 168
+            },
+            "pivot": {
+                "x": 0.33766233921051028,
+                "y": 0.0357142873108387
+            }
+        },
+        {
+            "name": "GoblinBoss_Attack_4",
+            "rect": {
+                "left": 616,
+                "top": 0,
+                "right": 770,
+                "bottom": 168
+            },
+            "pivot": {
+                "x": 0.33766233921051028,
+                "y": 0.0357142873108387
+            }
+        }
+    ]
+}
